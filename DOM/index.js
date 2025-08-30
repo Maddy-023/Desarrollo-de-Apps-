@@ -1,5 +1,5 @@
  function agregarItem() {
-      let input = document.getElementById("itemInput");
+      let input = document.getElementById("campo");
       let texto = input.value.trim();
 
       if (texto !== "") {
