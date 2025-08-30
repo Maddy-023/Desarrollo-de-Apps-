@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Primer DOM</h1>
-    <label for="">Crea tu propia lista</label>
-    <input placeholder="Ingresa tus cosas" type="text">
+<div class="cajita">
+        <center><h5>Primer DOM</h5></center>
+        <center><h1>Mi Lista de Tareas</h1></center>
+        <input type="text" id="itemInput" placeholder="Escribe algo...">
+        <button onclick="agregarItem()">Agregar</button>
+        <ul id="lista"></ul>
+    </div>
 
     <script src="index.js"></script>
 </body>
